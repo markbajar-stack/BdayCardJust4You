@@ -68,7 +68,7 @@ html, body {
     background-size: contain; 
     transform-style: preserve-3d; 
     transform-origin: 0% 50%; 
-    transform: perspective (800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg);
     transition: all 0.8s ease-in-out;
 }
 .hover-text {
@@ -98,7 +98,7 @@ html, body {
     border: 10px solid var(--border-color);
     margin: -10px 0px 0px -10px;
     backface-visibility: visible;
-    filter: drop-shadow (2px 2px 4px rgba(0,0,0,.5));
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,.5));
     transform-style: preserve-3d; 
     transform-origin: 0% 50%; 
     transform: perspective(800px) rotateY(0deg); 
